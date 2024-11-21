@@ -29,6 +29,13 @@ The **ro A.I.** project was created to build a personalized virtual assistant th
    - Retrieves the current time and reports it back to the user.
 7. **OS**:
    - Used to interact with the file system (e.g., playing music files, opening apps).
+8. **Scikit-learn**:
+   - A powerful library for machine learning in Python.
+   - Modules Used:
+   - CountVectorizer : Converts text data (user queries) into numerical vectors, enabling the model to process and classify the data.
+   - MultinomialNB : A Naive Bayes classification algorithm, efficient for text-based classification tasks like intent detection.
+9. **Pickle**:
+   - A Python module used to save and load the trained model and the vectorizer.     
 
 ---
 
@@ -59,6 +66,7 @@ Make sure **Python 3.10** or higher is installed on your machine. If not, you ca
 2. install the required libraries:
     ```bash
     pip install openai speechrecognition pyttsx3 pyaudio numpy
+    pip install scikit-learn
 
 3. Generate an API Key:
    -Go to OpenAI's API key page and create a new API key.
