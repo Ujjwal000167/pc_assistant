@@ -77,3 +77,33 @@ Make sure **Python 3.10** or higher is installed on your machine. If not, you ca
 4. Run the Program :
     ```bash
     python main.py
+
+---
+
+## **Future Customizations and Add-ons**
+
+Here are some ideas to expand and improve the PC Assistant project:
+
+1. **Add More Commands**:  
+   - Include more intents like checking the weather, sending emails, or setting alarms.  
+   - Example: "What's the weather?" → Fetch weather data using APIs like OpenWeatherMap.
+
+2. **Smart Device Integration**:  
+   - Control smart home devices like lights or speakers using APIs like Philips Hue or Google Home.  
+   - Example: "Turn off the lights."
+
+3. **Sentiment Analysis**:  
+   - Add sentiment analysis to respond to user emotions.  
+   - Example: If the user seems sad, offer encouraging responses.  
+
+4. **Multi-language Support**:  
+   - Extend the assistant to support multiple languages using libraries like Google Translate API.  
+   - Example: Recognize and respond in French or Spanish.  
+
+5. **Voice Command Execution**:  
+   - Train a custom voice model to recognize specific keywords for quick actions.  
+
+6. **Custom Notifications**:  
+   - Add reminders or calendar integration to notify users of important events.  
+
+These features will make the assistant more versatile, user-friendly, and engaging!
