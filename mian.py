@@ -7,6 +7,20 @@ import datetime
 import random
 import numpy as np
 
+import pickle
+
+# Load the model and vectorizer
+with open("intent_model.pkl", "rb") as f:
+    intent_model = pickle.load(f)
+
+with open("vectorizer.pkl", "rb") as f:
+    vectorizer = pickle.load(f)
+
+# Function to classify user intents
+def classify_intent(query):
+    X = vectorizer.transform([query])
+    intent = intent_model.predict(X)[0]
+    return intent
 
 chatStr = ""
 
